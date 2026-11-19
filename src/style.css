@@ -149,6 +149,9 @@ body{overflow-x:clip}
 [data-theme=dark] .website-capture figcaption{border-color:#49423c;color:#bca58e}
 [data-theme=dark] .detail-info .eyebrow{color:#c3a080}
 [data-theme=dark] .detail-footer a:hover{color:#ffb27c}
+#nl-badge-frame {
+  display: none !important;
+}
 @media(min-width:1151px) and (max-width:1350px){.header{gap:25px}.nav{gap:21px}.nav-note{font-size:10px;padding-left:20px}}
 @media(max-width:850px){.header{gap:15px}.theme-toggle{width:36px;height:36px;padding:8px;border-radius:7px}.theme-toggle svg{width:18px;height:18px}.nav.open{padding-top:23px;padding-bottom:23px;row-gap:16px}.nav a{padding:7px 0}[data-theme=dark] .nav{background:#1d2025;box-shadow:0 12px 16px #0003}.detail-header-actions{gap:10px}}
 @media(max-width:360px){.header{gap:11px}.menu-toggle{font-size:12px;gap:8px}.theme-toggle{width:33px;height:33px}.detail-header-actions{gap:7px}.back-home{padding:9px;font-size:11px}}
